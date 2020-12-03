@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "A Backend application using NodeJS and ExpressJS",
+  "description": "Backend application for messenger clone",
   "main": "src/index.js",
   "scripts": {
     "babel": "babel src --out-dir lib",

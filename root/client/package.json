@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "1.0.0",
-  "description": "A Frontend application using ReactJS",
+  "description": "Frontend application for messenger clone",
   "main": "index.js",
   "scripts": {
     "babel": "babel src --out-dir lib",
