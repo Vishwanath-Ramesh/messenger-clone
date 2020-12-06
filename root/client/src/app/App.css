@@ -1,14 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 100%;
+  height: 100%;
+  font-family: Alegreya, serif;
 }
 
 body {
   font-size: 1em;
   margin: 0;
+  height: 100%;
+  background-color: #f7f9fc;
 }
 
-.app {
+#root {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /* --------------------- Media Queries --------------------- */

@@ -1,0 +1,9 @@
+.message {
+  align-self: flex-end;
+  width: auto;
+  background-color: #1a233b;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 0.8rem;
+  text-align: right;
+}

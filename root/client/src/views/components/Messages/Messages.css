@@ -1,0 +1,8 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  width: auto;
+  height: 100%;
+}
