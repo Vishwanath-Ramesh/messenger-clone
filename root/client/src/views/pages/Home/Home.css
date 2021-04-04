@@ -70,12 +70,13 @@
 
 .home__chatroom {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   background-color: #f3f6fb;
   border-radius: 10px;
-  gap: 1rem;
+  /* gap: 1rem; */
   font-weight: 600;
   cursor: pointer;
   /* min-height: 60px; */
@@ -86,6 +87,30 @@
   background-color: #b9bec9;
 }
 
+.home__chatroom_roominfo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home__chatroom_roomname {
+  font-size: 1.5rem;
+}
+
+.home__chatroom_usersonline {
+  display: flex;
+}
+
+.home__chatroom_usersonlinelabel {
+  color: green;
+}
+
+.home__chatroom_usersonlinecount {
+  font-weight: 700;
+}
+
 .home__right {
   display: flex;
   flex-direction: column;
@@ -93,7 +118,7 @@
   background-color: #f3f6fb;
   border-radius: 20px;
   padding: 1rem;
-  overflow-y: scroll;
+  overflow-y: auto;
   gap: 1rem;
 }
 

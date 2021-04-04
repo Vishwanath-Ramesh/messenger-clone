@@ -1,0 +1,42 @@
+.typingindicator {
+  display: flex;
+  gap: 1rem;
+}
+
+.typingindicator__container {
+  align-items: center;
+  display: flex;
+  height: 17px;
+}
+
+.typingindicator__dot {
+  -webkit-animation: mercuryTypingAnimation 1.5s infinite ease-in-out;
+  border-radius: 2px;
+  display: inline-block;
+  height: 4px;
+  margin-right: 2px;
+  width: 4px;
+  background-color: #90949c;
+}
+
+@-webkit-keyframes mercuryTypingAnimation {
+  0% {
+    -webkit-transform: translateY(0px);
+  }
+  28% {
+    -webkit-transform: translateY(-5px);
+  }
+  44% {
+    -webkit-transform: translateY(0px);
+  }
+}
+
+.typingindicator__dot:nth-child(1) {
+  -webkit-animation-delay: 200ms;
+}
+.typingindicator__dot:nth-child(2) {
+  -webkit-animation-delay: 300ms;
+}
+.typingindicator__dot:nth-child(3) {
+  -webkit-animation-delay: 400ms;
+}
